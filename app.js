@@ -14,14 +14,14 @@ var svg = d3.select("#vis")
 
 // Initialise a X axis:
 var x = d3.scaleTime().range([0, width]);
-var xAxis = d3.axisBottom().scale(x);
+var xAxis = d3.axisBottom().scale(x).tickSize(-height);
 svg.append("g")
     .attr("transform", "translate(0," + height + ")")
     .attr("class", "myXaxis")
 
 // Initialize an Y axis
 var y = d3.scaleLinear().range([height, 0]);
-var yAxis = d3.axisLeft().scale(y);
+var yAxis = d3.axisLeft().scale(y).tickSize(-width)
 svg.append("g")
     .attr("class", "myYaxis")
 

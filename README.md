@@ -1,0 +1,1 @@
+This tool displays the number of members of parliament per date for a given chamber, according to Wikidata. The graph is meant to quickly give a visual hint at the data coverage for the chamber. It's based on start and end qualifiers for the MP position statements. Simply put: the straighter the line, the higher the quality (probably).

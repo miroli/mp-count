@@ -15,7 +15,7 @@
 #   MINUS { ?seatsStatement pq:P582 [] }
 #   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 # }
-SELECT DISTINCT ?item ?itemLabel ?countryLabel ?position WHERE {
+SELECT DISTINCT ?item ?itemLabel ?countryLabel ?position ?positionLabel WHERE {
   ?item wdt:P31/wdt:P279* wd:Q10553309 ;
         wdt:P1001 ?country .
   

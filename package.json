@@ -1,0 +1,16 @@
+{
+  "name": "mp-count",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Robin Linderborg",
+  "license": "CC0",
+  "private": false,
+  "dependencies": {},
+  "scripts": {
+    "update-mp-counts": "./etl/get_mp_data.sh",
+    "update-config": "./etl/get_parliament_data.sh",
+    "generate-select": "cat etl/config.json | jq -r 'sort_by(.countryLabel) | .[] | \"<option value=\" + .position.value + \">\" + .countryLabel + \" (\" + .position.label + \")</option>\"'",
+    "server": "python -m http.server"
+  },
+  "devDependencies": {}
+}

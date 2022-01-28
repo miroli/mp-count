@@ -1,8 +1,11 @@
 #!/bin/bash
 
-for row in $(cat config.json | jq -c '.[] | [.position, .countryLabel]'); do
-    position=$(echo ${row} | jq -r '.[0]')
-    country=$(echo ${row} | jq -r '.[1]' | tr '[:upper:]' '[:lower:]')
-    echo $country
-    wd sparql `dirname $0`/queries/mps.js $position | jq -c '.[]' | node `dirname $0`/countMps.js > `dirname $0`/$country.json
+DATA_FOLDER=$(dirname $(dirname $0))/data
+CONFIG_FILE=$(dirname $0)/config.json
+QUERY_FILE=`dirname $0`/queries/mps.js
+COUNT_FILE=`dirname $0`/countMps.js
+
+for row in $(cat $CONFIG_FILE | jq -c -r '.[] | .position'); do
+    echo $row
+    wd sparql $QUERY_FILE $row | jq -c '.[]' | node $COUNT_FILE > $DATA_FOLDER/$row.json
 done

@@ -10,29 +10,210 @@
 </head>
 
 <body>
-    <h1>MP Count</h1>
-    <p class="intro">This tool displays the number of members of parliament per date for a given chamber, according to
-        Wikidata.
-        The graph is meant to quickly give a visual hint at the data quality for the chamber. It's based on start and
-        end qualifiers for the MP position statements. Simply put: the straighter the
-        line, the higher the quality.</p>
-    <p class=select-label>Select Country: </p><select id="dropdown" selected=sweden>
-        <option value=sweden>Sweden (Riksdagen)</option>
-        <option value=italy_senate>Italy (Senate)</option>
-        <option value=italy_dep>Italy (Chamber of Deputies)</option>
-        <option value=denmark>Denmark (Folketinget)</option>
-        <option value=finland>Finland (Riksdagen)</option>
-        <option value=norway>Norway (Stortinget)</option>
-        <option value=gb_hol>Great Britain (House of Lords)</option>
-        <option value=gb_hoc>Great Britain (House of Commons)</option>
-    </select>
-    <div id="vis"></div>
-
-    <div class="footer">
-        <p>Created by: <a href="https://www.wikidata.org/wiki/User:Popperipopp">User:Popperipopp</a></p>
+    <div id="container">
+        <h1>Member of Parliament Count</h1>
+        <p class="intro">This tool displays the number of members of parliament per date for a given chamber, according
+            to
+            Wikidata.
+            The graph is meant to quickly give a visual hint at the data coverage for the chamber. It's based on start
+            and
+            end qualifiers for the MP position statements. Simply put: the straighter the
+            line, the higher the quality (probably).</p>
+        <p class=select-label>Select Country: </p><select id="dropdown" selected=Q6310593>
+            <option value=Q21290884>Afghanistan (House of Elders)</option>
+            <option value=Q19853383>Afghanistan (House of the People)</option>
+            <option value=Q21290886>Algeria (People's National Assembly)</option>
+            <option value=Q21290885>Algeria (Council of the Nation)</option>
+            <option value=Q21295121>Antigua and Barbuda (Senate of Antigua and Barbuda)</option>
+            <option value=Q21290853>Antigua and Barbuda (House of Representatives of Antigua and Barbuda)</option>
+            <option value=Q18229570>Argentina (Chamber of Deputies)</option>
+            <option value=Q18711738>Argentina (Argentine Senate)</option>
+            <option value=Q6814428>Australia (Senate of Australia)</option>
+            <option value=Q18912794>Australia (Australian House of Representatives)</option>
+            <option value=Q19360771>Austria (Federal Council of Austria)</option>
+            <option value=Q17535155>Austria (National Council of Austria)</option>
+            <option value=Q21328598>Bahrain (Consultative Council of Bahrain)</option>
+            <option value=Q21328582>Bahrain (Council of Representatives)</option>
+            <option value=Q21296440>Barbados (House of Assembly of Barbados)</option>
+            <option value=Q21295122>Barbados (Senate of Barbados)</option>
+            <option value=Q15623433>Belarus (Council of the Republic of Belarus)</option>
+            <option value=Q14335901>Belarus (House of Representatives)</option>
+            <option value=Q17619252>Belgium (Belgian Senate)</option>
+            <option value=Q15705021>Belgium (Chamber of Representatives)</option>
+            <option value=Q21295124>Belize (Senate)</option>
+            <option value=Q21290854>Belize (House of Representatives)</option>
+            <option value=Q21295972>Bhutan (National Assembly of Bhutan)</option>
+            <option value=Q21328625>Bhutan (National Council of Bhutan)</option>
+            <option value=Q20081427>Bolivia (Senate of Bolivia)</option>
+            <option value=Q20081432>Bolivia (Chamber of Deputies of Bolivia)</option>
+            <option value=Q21290855>Bosnia and Herzegovina (House of Representatives)</option>
+            <option value=Q21328613>Bosnia and Herzegovina (House of Peoples of Bosnia and Herzegovina)</option>
+            <option value=Q20058725>Brazil (Chamber of Deputies)</option>
+            <option value=Q18964326>Brazil (Federal Senate of Brazil)</option>
+            <option value=Q21295973>Burundi (National Assembly)</option>
+            <option value=Q21295125>Burundi (Senate)</option>
+            <option value=Q21295974>Cambodia (National Assembly)</option>
+            <option value=Q21295127>Cambodia (Senate of Cambodia)</option>
+            <option value=Q21295975>Cameroon (National Assembly of Cameroon)</option>
+            <option value=Q21295128>Cameroon (Senate of Cameroon)</option>
+            <option value=Q15964890>Canada (House of Commons)</option>
+            <option value=Q18524027>Canada (Senate of Canada)</option>
+            <option value=Q18882653>Chile (Senate of Chile)</option>
+            <option value=Q18067639>Chile (Chamber of Deputies)</option>
+            <option value=Q18960607>Colombia (Chamber of Representatives of Colombia)</option>
+            <option value=Q19254253>Colombia (Senate of Colombia)</option>
+            <option value=Q19801674>Cyprus (House of Representatives)</option>
+            <option value=Q19803234>Czech Republic (Chamber of Deputies of the Parliament of the Czech Republic)
+            </option>
+            <option value=Q18941264>Czech Republic (Senate of the Czech Republic)</option>
+            <option value=Q37786445>Côte d'Ivoire (Senate)</option>
+            <option value=Q21295979>Democratic Republic of the Congo (National Assembly)</option>
+            <option value=Q21295130>Democratic Republic of the Congo (Senate)</option>
+            <option value=Q21328590>Dominican Republic (Chamber of Deputies)</option>
+            <option value=Q21295132>Dominican Republic (Senate of the Dominican Republic)</option>
+            <option value=Q21295982>Ecuador (National Assembly)</option>
+            <option value=Q21290857>Egypt (House of Representatives)</option>
+            <option value=Q63342322>El Salvador (Chamber of Senators)</option>
+            <option value=Q63342335>El Salvador (Chamber of Deputies)</option>
+            <option value=Q21328595>Equatorial Guinea (Chamber of People's Representatives)</option>
+            <option value=Q21295134>Equatorial Guinea (Senate of Equatorial Guinea)</option>
+            <option value=Q21295151>Eswatini (Senate of Swaziland)</option>
+            <option value=Q21296436>Eswatini (House of Assembly of Eswatini)</option>
+            <option value=Q21328611>Ethiopia (House of Federation)</option>
+            <option value=Q21328614>Ethiopia (House of Peoples' Representatives)</option>
+            <option value=Q17592486>Finland (Parliament of Finland)</option>
+            <option value=Q3044918>France (French National Assembly)</option>
+            <option value=Q19798976>Gabon (National Assembly)</option>
+            <option value=Q21295135>Gabon (Senate)</option>
+            <option value=Q1939555>Germany (Bundestag of Germany)</option>
+            <option value=Q15835370>Germany (Bundesrat)</option>
+            <option value=Q21290858>Grenada (House of Representatives)</option>
+            <option value=Q21295137>Grenada (Senate of Grenada)</option>
+            <option value=Q21328591>Haiti (Chamber of Deputies)</option>
+            <option value=Q21295138>Haiti (Senate of Haiti)</option>
+            <option value=Q16556694>India (Lok Sabha)</option>
+            <option value=Q17324844>India (Rajya Sabha)</option>
+            <option value=Q21328635>Indonesia (Regional Representative Council)</option>
+            <option value=Q21328632>Indonesia (People's Representative Council)</option>
+            <option value=Q826589>Italy (Senate of the Republic of Italy)</option>
+            <option value=Q13653224>Italy (Senate of the Republic of Italy)</option>
+            <option value=Q18558478>Italy (Chamber of Deputies of Italy)</option>
+            <option value=Q21290859>Jamaica (House of Representatives of Jamaica)</option>
+            <option value=Q21295140>Jamaica (Senate of Jamaica)</option>
+            <option value=Q17524418>Jordan (House of Representatives of Jordan)</option>
+            <option value=Q20081407>Jordan (Senate of Jordan)</option>
+            <option value=Q21328574>Kazakhstan (Mazhilis)</option>
+            <option value=Q21295141>Kazakhstan (Senate of Kazakhstan)</option>
+            <option value=Q17510786>Kenya (National Assembly)</option>
+            <option value=Q18555726>Kenya (Senate)</option>
+            <option value=Q12311817>Kingdom of Denmark (Folketing)</option>
+            <option value=Q21191589>Latvia (Saeima)</option>
+            <option value=Q21295142>Lesotho (Senate of Lesotho)</option>
+            <option value=Q21295988>Lesotho (National Assembly)</option>
+            <option value=Q21290860>Liberia (House of Representatives)</option>
+            <option value=Q21295144>Liberia (Senate)</option>
+            <option value=Q21295989>Madagascar (National Assembly)</option>
+            <option value=Q21295145>Madagascar (Senate)</option>
+            <option value=Q21328606>Malaysia (Dewan Negara)</option>
+            <option value=Q21290861>Malaysia (Dewan Rakyat)</option>
+            <option value=Q21295992>Mauritania (National Assembly)</option>
+            <option value=Q19971999>Mexico (Senate of the Republic)</option>
+            <option value=Q18534310>Mexico (Chamber of Deputies)</option>
+            <option value=Q21328583>Morocco (House of Representatives of Morocco)</option>
+            <option value=Q21328580>Morocco (House of Councillors of Morocco)</option>
+            <option value=Q21328612>Myanmar (House of Nationalities)</option>
+            <option value=Q21290856>Myanmar (House of Representatives)</option>
+            <option value=Q21328627>Namibia (National Council of Namibia)</option>
+            <option value=Q21295994>Namibia (National Assembly)</option>
+            <option value=Q21290864>Nigeria (House of Representatives of Nigeria)</option>
+            <option value=Q19822359>Nigeria (Senate of Nigeria)</option>
+            <option value=Q21328587>Oman (Consultative Assembly of Oman)</option>
+            <option value=Q21328599>Oman (state council of Oman)</option>
+            <option value=Q20760546>Pakistan (National Assembly)</option>
+            <option value=Q3297966>Pakistan (Senate of Pakistan)</option>
+            <option value=Q20081441>Pakistan (Senate of Pakistan)</option>
+            <option value=Q21295147>Palau (Senate of Palau)</option>
+            <option value=Q21328610>Palau (House of Delegates of Palau)</option>
+            <option value=Q20058561>Paraguay (Chamber of Deputies)</option>
+            <option value=Q20058559>Paraguay (Senate of Paraguay)</option>
+            <option value=Q10891456>People's Republic of China (National People's Congress of the People's Republic of
+                China)</option>
+            <option value=Q18002923>Philippines (House of Representatives of the Philippines)</option>
+            <option value=Q18579098>Philippines (Senate of the Philippines)</option>
+            <option value=Q3846811>Poland (Senate of Poland)</option>
+            <option value=Q81747225>Poland (Senate of Poland)</option>
+            <option value=Q19269361>Poland (Sejm of the Republic of Poland)</option>
+            <option value=Q654291>Republic of Ireland (Dáil Éireann)</option>
+            <option value=Q18043391>Republic of Ireland (Seanad Éireann)</option>
+            <option value=Q21295980>Republic of the Congo (National Assembly)</option>
+            <option value=Q21295131>Republic of the Congo (Senate)</option>
+            <option value=Q17556530>Romania (Chamber of Deputies)</option>
+            <option value=Q19938957>Romania (Senate of Romania)</option>
+            <option value=Q19399742>Russia (Federation Council)</option>
+            <option value=Q17276321>Russia (State Duma Nha May)</option>
+            <option value=Q21328594>Rwanda (Chamber of Deputies)</option>
+            <option value=Q21295148>Rwanda (Senate)</option>
+            <option value=Q21296449>Saint Lucia (House of Assembly of Saint Lucia)</option>
+            <option value=Q21295149>Saint Lucia (Senate of Saint Lucia)</option>
+            <option value=Q21294917>Singapore (Parliament of Singapore)</option>
+            <option value=Q19967563>Slovakia (National Council of the Slovak Republic)</option>
+            <option value=Q21328628>Slovenia (National Council of Slovenia)</option>
+            <option value=Q21296001>Slovenia (National Assembly)</option>
+            <option value=Q21328640>Somalia (Upper House of Somalia)</option>
+            <option value=Q21328615>Somalia (House of the People)</option>
+            <option value=Q16744266>South Africa (National Assembly of South Africa)</option>
+            <option value=Q20079916>South Africa (National Council of Provinces)</option>
+            <option value=Q21328604>South Sudan (Council of States)</option>
+            <option value=Q21328629>South Sudan (National Legislative Assembly)</option>
+            <option value=Q18171345>Spain (Congress of Deputies)</option>
+            <option value=Q19323171>Spain (Senate of Spain)</option>
+            <option value=Q18964938>Sri Lanka (Parliament of Sri Lanka)</option>
+            <option value=Q21328630>Sudan (National Assembly)</option>
+            <option value=Q21328588>Sudan (Council of States)</option>
+            <option value=Q17268790>Suriname (National Assembly)</option>
+            <option value=Q10655178>Sweden (Parliament of Sweden)</option>
+            <option value=Q96440210>Sweden (Sami Parliament of Sweden)</option>
+            <option value=Q18510613>Switzerland (Council of States of Switzerland)</option>
+            <option value=Q18510612>Switzerland (National Council of Switzerland)</option>
+            <option value=Q18515554>Switzerland (Federal Assembly of Switzerland)</option>
+            <option value=Q6310593>Taiwan (Legislative Yuan)</option>
+            <option value=Q21328584>Tajikistan (Assembly of Representatives)</option>
+            <option value=Q21296003>Tajikistan (National Assembly of Tajikistan)</option>
+            <option value=Q17601986>The Bahamas (House of Assembly)</option>
+            <option value=Q20725063>The Bahamas (Senate of the Bahamas)</option>
+            <option value=Q18719159>Trinidad and Tobago (House of Representatives)</option>
+            <option value=Q19319420>Trinidad and Tobago (Senate of Trinidad and Tobago)</option>
+            <option value=Q21328577>Turkmenistan (Assembly of Turkmenistan)</option>
+            <option value=Q19930720>Uruguay (Chamber of Deputies)</option>
+            <option value=Q19930721>Uruguay (Senate of Uruguay)</option>
+            <option value=Q21295154>Uzbekistan (Senate of Uzbekistan)</option>
+            <option value=Q21328622>Uzbekistan (Legislative Chamber of Uzbekistan)</option>
+            <option value=Q24810806>Yemen (House of Representatives)</option>
+            <option value=Q63143442>Yemen (House of Representatives)</option>
+            <option value=Q18607856>Zambia (National Assembly)</option>
+            <option value=Q21295155>Zimbabwe (Senate of Zimbabwe)</option>
+            <option value=Q21296472>Zimbabwe (National Assembly of Zimbabwe)</option>
+        </select>
+        <div id="vis"></div>
+        <div class="footer">
+            <div class="questions">
+                <p class="question">Why is country X missing?</p>
+                <p class="answer">Either because the data is truly missing, or it's modelled differently than the rest.
+                </p>
+                <p class="question">Why does the timeline start at 1990?</p>
+                <p class="answer">The year 1990 was chosen at random until I can figure out appropriate starting dates
+                    by country.</p>
+                <p class="question">Is the data live?</p>
+                <p class="answer">No, the datasets are updated daily.</p>
+                <p class="question">Can I access the code?</p>
+                <p class="answer">Not yet, but soon.</p>
+            </div>
+            <p>Created by: <a href="https://www.wikidata.org/wiki/User:Popperipopp">User:Popperipopp</a></p>
+        </div>
     </div>
 
     <script src="./app.js"></script>
 </body>
+
 
 </html>

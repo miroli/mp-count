@@ -1,4 +1,4 @@
-var margin = { top: 10, right: 30, bottom: 30, left: 50 },
+var margin = { top: 10, right: 30, bottom: 30, left: 20 },
     width = 900 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
@@ -22,9 +22,10 @@ svg.append("g")
     .attr("class", "myYaxis")
 
 function update(inc) {
-    const data = inc.map(d => {
-        return { date: d3.timeParse("%Y-%m-%d")(d.date), count: d.count }
-    })
+    const data = []
+    for (const key in inc) {
+        data.push({ date: d3.timeParse("%Y-%m-%d")(key), count: inc[key] })
+    }
 
     x.domain([d3.min(data, d => d.date), d3.max(data, d => d.date)]);
     svg.selectAll(".myXaxis")
@@ -59,4 +60,4 @@ d3.select("#dropdown")
         d3.json(`data/${country}.json`).then(update)
     })
 
-d3.json("data/sweden.json").then(update)
+d3.json("data/Q19269361.json").then(update)

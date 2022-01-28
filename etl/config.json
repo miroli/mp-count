@@ -1,13 +1,363 @@
 [
   {
     "item": {
+      "value": "Q154797",
+      "label": "Bundestag of Germany"
+    },
+    "countryLabel": "Germany",
+    "position": "Q1939555"
+  },
+  {
+    "item": {
+      "value": "Q186473",
+      "label": "Federation Council"
+    },
+    "countryLabel": "Russia",
+    "position": "Q19399742"
+  },
+  {
+    "item": {
+      "value": "Q146138",
+      "label": "Bundesrat"
+    },
+    "countryLabel": "Germany",
+    "position": "Q15835370"
+  },
+  {
+    "item": {
+      "value": "Q98975",
+      "label": "Senate of Poland"
+    },
+    "countryLabel": "Poland",
+    "position": "Q3846811"
+  },
+  {
+    "item": {
+      "value": "Q98975",
+      "label": "Senate of Poland"
+    },
+    "countryLabel": "Poland",
+    "position": "Q81747225"
+  },
+  {
+    "item": {
+      "value": "Q193582",
+      "label": "French National Assembly"
+    },
+    "countryLabel": "France",
+    "position": "Q3044918"
+  },
+  {
+    "item": {
+      "value": "Q98964",
+      "label": "Sejm of the Republic of Poland"
+    },
+    "countryLabel": "Poland",
+    "position": "Q19269361"
+  },
+  {
+    "item": {
+      "value": "Q230003",
+      "label": "Lok Sabha"
+    },
+    "countryLabel": "India",
+    "position": "Q16556694"
+  },
+  {
+    "item": {
+      "value": "Q244730",
+      "label": "Rajya Sabha"
+    },
+    "countryLabel": "India",
+    "position": "Q17324844"
+  },
+  {
+    "item": {
+      "value": "Q240823",
+      "label": "National Assembly of South Africa"
+    },
+    "countryLabel": "South Africa",
+    "position": "Q16744266"
+  },
+  {
+    "item": {
+      "value": "Q209151",
+      "label": "Folketing"
+    },
+    "countryLabel": "Kingdom of Denmark",
+    "position": "Q12311817"
+  },
+  {
+    "item": {
+      "value": "Q264113",
+      "label": "Senate of the Republic"
+    },
+    "countryLabel": "Mexico",
+    "position": "Q19971999"
+  },
+  {
+    "item": {
+      "value": "Q320280",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Dominican Republic",
+    "position": "Q21328590"
+  },
+  {
+    "item": {
+      "value": "Q272930",
+      "label": "Parliament of Sweden"
+    },
+    "countryLabel": "Sweden",
+    "position": "Q10655178"
+  },
+  {
+    "item": {
+      "value": "Q320268",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Bosnia and Herzegovina",
+    "position": "Q21290855"
+  },
+  {
+    "item": {
+      "value": "Q320265",
+      "label": "Chamber of Deputies of the Parliament of the Czech Republic"
+    },
+    "countryLabel": "Czech Republic",
+    "position": "Q19803234"
+  },
+  {
+    "item": {
+      "value": "Q320290",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Paraguay",
+    "position": "Q20058561"
+  },
+  {
+    "item": {
+      "value": "Q320292",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Rwanda",
+    "position": "Q21328594"
+  },
+  {
+    "item": {
+      "value": "Q320287",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Haiti",
+    "position": "Q21328591"
+  },
+  {
+    "item": {
+      "value": "Q383590",
+      "label": "House of Commons"
+    },
+    "countryLabel": "Canada",
+    "position": "Q15964890"
+  },
+  {
+    "item": {
+      "value": "Q320306",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Romania",
+    "position": "Q17556530"
+  },
+  {
+    "item": {
+      "value": "Q320303",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Uruguay",
+    "position": "Q19930720"
+  },
+  {
+    "item": {
+      "value": "Q320304",
+      "label": "House of Representatives of Jordan"
+    },
+    "countryLabel": "Jordan",
+    "position": "Q17524418"
+  },
+  {
+    "item": {
+      "value": "Q557150",
+      "label": "Federal Council of Austria"
+    },
+    "countryLabel": "Austria",
+    "position": "Q19360771"
+  },
+  {
+    "item": {
+      "value": "Q539149",
+      "label": "Congress of Deputies"
+    },
+    "countryLabel": "Spain",
+    "position": "Q18171345"
+  },
+  {
+    "item": {
+      "value": "Q609037",
+      "label": "Council of States of Switzerland"
+    },
+    "countryLabel": "Switzerland",
+    "position": "Q18510613"
+  },
+  {
+    "item": {
+      "value": "Q570619",
+      "label": "House of Assembly of Barbados"
+    },
+    "countryLabel": "Barbados",
+    "position": "Q21296440"
+  },
+  {
+    "item": {
+      "value": "Q586461",
+      "label": "Senate of Barbados"
+    },
+    "countryLabel": "Barbados",
+    "position": "Q21295122"
+  },
+  {
+    "item": {
+      "value": "Q389423",
+      "label": "Senate of the Czech Republic"
+    },
+    "countryLabel": "Czech Republic",
+    "position": "Q18941264"
+  },
+  {
+    "item": {
+      "value": "Q633590",
+      "label": "People's National Assembly"
+    },
+    "countryLabel": "Algeria",
+    "position": "Q21290886"
+  },
+  {
+    "item": {
+      "value": "Q629133",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Argentina",
+    "position": "Q18229570"
+  },
+  {
+    "item": {
+      "value": "Q633872",
+      "label": "Senate of the Republic of Italy"
+    },
+    "countryLabel": "Italy",
+    "position": "Q826589"
+  },
+  {
+    "item": {
+      "value": "Q633872",
+      "label": "Senate of the Republic of Italy"
+    },
+    "countryLabel": "Italy",
+    "position": "Q13653224"
+  },
+  {
+    "item": {
+      "value": "Q630145",
+      "label": "Assembly of Turkmenistan"
+    },
+    "countryLabel": "Turkmenistan",
+    "position": "Q21328577"
+  },
+  {
+    "item": {
+      "value": "Q676078",
+      "label": "National Council of Switzerland"
+    },
+    "countryLabel": "Switzerland",
+    "position": "Q18510612"
+  },
+  {
+    "item": {
+      "value": "Q651981",
+      "label": "Dáil Éireann"
+    },
+    "countryLabel": "Republic of Ireland",
+    "position": "Q654291"
+  },
+  {
+    "item": {
+      "value": "Q659211",
+      "label": "Senate of Zimbabwe"
+    },
+    "countryLabel": "Zimbabwe",
+    "position": "Q21295155"
+  },
+  {
+    "item": {
+      "value": "Q643412",
+      "label": "Parliament of Finland"
+    },
+    "countryLabel": "Finland",
+    "position": "Q17592486"
+  },
+  {
+    "item": {
+      "value": "Q665693",
+      "label": "House of Representatives of Nigeria"
+    },
+    "countryLabel": "Nigeria",
+    "position": "Q21290864"
+  },
+  {
+    "item": {
+      "value": "Q720003",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Burundi",
+    "position": "Q21295973"
+  },
+  {
+    "item": {
+      "value": "Q684719",
+      "label": "Federal Assembly of Switzerland"
+    },
+    "countryLabel": "Switzerland",
+    "position": "Q18515554"
+  },
+  {
+    "item": {
       "value": "Q715869",
       "label": "Legislative Yuan"
     },
     "countryLabel": "Taiwan",
-    "seats": 113,
-    "startDate": "2008-02-01T00:00:00Z",
     "position": "Q6310593"
+  },
+  {
+    "item": {
+      "value": "Q678545",
+      "label": "House of Representatives of the Philippines"
+    },
+    "countryLabel": "Philippines",
+    "position": "Q18002923"
+  },
+  {
+    "item": {
+      "value": "Q715641",
+      "label": "State Duma Nha May"
+    },
+    "countryLabel": "Russia",
+    "position": "Q17276321"
+  },
+  {
+    "item": {
+      "value": "Q783330",
+      "label": "Senate of Australia"
+    },
+    "countryLabel": "Australia",
+    "position": "Q6814428"
   },
   {
     "item": {
@@ -15,8 +365,1006 @@
       "label": "Australian House of Representatives"
     },
     "countryLabel": "Australia",
-    "seats": 151,
-    "startDate": "2021-01-01T00:00:00Z",
     "position": "Q18912794"
+  },
+  {
+    "item": {
+      "value": "Q818704",
+      "label": "Consultative Assembly of Oman"
+    },
+    "countryLabel": "Oman",
+    "position": "Q21328587"
+  },
+  {
+    "item": {
+      "value": "Q775767",
+      "label": "Chamber of People's Representatives"
+    },
+    "countryLabel": "Equatorial Guinea",
+    "position": "Q21328595"
+  },
+  {
+    "item": {
+      "value": "Q827490",
+      "label": "Senate"
+    },
+    "countryLabel": "Belize",
+    "position": "Q21295124"
+  },
+  {
+    "item": {
+      "value": "Q827805",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Belize",
+    "position": "Q21290854"
+  },
+  {
+    "item": {
+      "value": "Q841424",
+      "label": "Chamber of Deputies of Italy"
+    },
+    "countryLabel": "Italy",
+    "position": "Q18558478"
+  },
+  {
+    "item": {
+      "value": "Q822919",
+      "label": "Saeima"
+    },
+    "countryLabel": "Latvia",
+    "position": "Q21191589"
+  },
+  {
+    "item": {
+      "value": "Q841180",
+      "label": "Senate of Canada"
+    },
+    "countryLabel": "Canada",
+    "position": "Q18524027"
+  },
+  {
+    "item": {
+      "value": "Q953810",
+      "label": "National Council of Slovenia"
+    },
+    "countryLabel": "Slovenia",
+    "position": "Q21328628"
+  },
+  {
+    "item": {
+      "value": "Q967407",
+      "label": "House of Federation"
+    },
+    "countryLabel": "Ethiopia",
+    "position": "Q21328611"
+  },
+  {
+    "item": {
+      "value": "Q871363",
+      "label": "National Council of Austria"
+    },
+    "countryLabel": "Austria",
+    "position": "Q17535155"
+  },
+  {
+    "item": {
+      "value": "Q969494",
+      "label": "Senate of Palau"
+    },
+    "countryLabel": "Palau",
+    "position": "Q21295147"
+  },
+  {
+    "item": {
+      "value": "Q855343",
+      "label": "Senate of Spain"
+    },
+    "countryLabel": "Spain",
+    "position": "Q19323171"
+  },
+  {
+    "item": {
+      "value": "Q927191",
+      "label": "Senate of Lesotho"
+    },
+    "countryLabel": "Lesotho",
+    "position": "Q21295142"
+  },
+  {
+    "item": {
+      "value": "Q1127591",
+      "label": "Seanad Éireann"
+    },
+    "countryLabel": "Republic of Ireland",
+    "position": "Q18043391"
+  },
+  {
+    "item": {
+      "value": "Q1133185",
+      "label": "House of Peoples' Representatives"
+    },
+    "countryLabel": "Ethiopia",
+    "position": "Q21328614"
+  },
+  {
+    "item": {
+      "value": "Q1138354",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Grenada",
+    "position": "Q21290858"
+  },
+  {
+    "item": {
+      "value": "Q1112381",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Cyprus",
+    "position": "Q19801674"
+  },
+  {
+    "item": {
+      "value": "Q1137584",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Liberia",
+    "position": "Q21290860"
+  },
+  {
+    "item": {
+      "value": "Q1149788",
+      "label": "Senate of Uruguay"
+    },
+    "countryLabel": "Uruguay",
+    "position": "Q19930721"
+  },
+  {
+    "item": {
+      "value": "Q1139204",
+      "label": "National Council of the Slovak Republic"
+    },
+    "countryLabel": "Slovakia",
+    "position": "Q19967563"
+  },
+  {
+    "item": {
+      "value": "Q1138935",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Mauritania",
+    "position": "Q21295992"
+  },
+  {
+    "item": {
+      "value": "Q1142439",
+      "label": "Senate"
+    },
+    "countryLabel": "Liberia",
+    "position": "Q21295144"
+  },
+  {
+    "item": {
+      "value": "Q1141206",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Madagascar",
+    "position": "Q21295989"
+  },
+  {
+    "item": {
+      "value": "Q1138713",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Lesotho",
+    "position": "Q21295988"
+  },
+  {
+    "item": {
+      "value": "Q1234896",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Cambodia",
+    "position": "Q21295974"
+  },
+  {
+    "item": {
+      "value": "Q1207095",
+      "label": "Dewan Negara"
+    },
+    "countryLabel": "Malaysia",
+    "position": "Q21328606"
+  },
+  {
+    "item": {
+      "value": "Q1247199",
+      "label": "Mazhilis"
+    },
+    "countryLabel": "Kazakhstan",
+    "position": "Q21328574"
+  },
+  {
+    "item": {
+      "value": "Q1254104",
+      "label": "Senate of Antigua and Barbuda"
+    },
+    "countryLabel": "Antigua and Barbuda",
+    "position": "Q21295121"
+  },
+  {
+    "item": {
+      "value": "Q1207092",
+      "label": "Dewan Rakyat"
+    },
+    "countryLabel": "Malaysia",
+    "position": "Q21290861"
+  },
+  {
+    "item": {
+      "value": "Q1194049",
+      "label": "House of Elders"
+    },
+    "countryLabel": "Afghanistan",
+    "position": "Q21290884"
+  },
+  {
+    "item": {
+      "value": "Q1254591",
+      "label": "Senate of Grenada"
+    },
+    "countryLabel": "Grenada",
+    "position": "Q21295137"
+  },
+  {
+    "item": {
+      "value": "Q1319595",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Ecuador",
+    "position": "Q21295982"
+  },
+  {
+    "item": {
+      "value": "Q1266832",
+      "label": "House of Representatives of Antigua and Barbuda"
+    },
+    "countryLabel": "Antigua and Barbuda",
+    "position": "Q21290853"
+  },
+  {
+    "item": {
+      "value": "Q1316045",
+      "label": "Senate of Kazakhstan"
+    },
+    "countryLabel": "Kazakhstan",
+    "position": "Q21295141"
+  },
+  {
+    "item": {
+      "value": "Q1334620",
+      "label": "Consultative Council of Bahrain"
+    },
+    "countryLabel": "Bahrain",
+    "position": "Q21328598"
+  },
+  {
+    "item": {
+      "value": "Q1282775",
+      "label": "House of Assembly of Saint Lucia"
+    },
+    "countryLabel": "Saint Lucia",
+    "position": "Q21296449"
+  },
+  {
+    "item": {
+      "value": "Q1450753",
+      "label": "Parliament of Sri Lanka"
+    },
+    "countryLabel": "Sri Lanka",
+    "position": "Q18964938"
+  },
+  {
+    "item": {
+      "value": "Q1355042",
+      "label": "Belgian Senate"
+    },
+    "countryLabel": "Belgium",
+    "position": "Q17619252"
+  },
+  {
+    "item": {
+      "value": "Q1454821",
+      "label": "Council of States"
+    },
+    "countryLabel": "South Sudan",
+    "position": "Q21328604"
+  },
+  {
+    "item": {
+      "value": "Q1466018",
+      "label": "Senate of Romania"
+    },
+    "countryLabel": "Romania",
+    "position": "Q19938957"
+  },
+  {
+    "item": {
+      "value": "Q1347545",
+      "label": "Chamber of Representatives"
+    },
+    "countryLabel": "Belgium",
+    "position": "Q15705021"
+  },
+  {
+    "item": {
+      "value": "Q1418426",
+      "label": "Senate of the Philippines"
+    },
+    "countryLabel": "Philippines",
+    "position": "Q18579098"
+  },
+  {
+    "item": {
+      "value": "Q1484102",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Yemen",
+    "position": "Q24810806"
+  },
+  {
+    "item": {
+      "value": "Q1484102",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Yemen",
+    "position": "Q63143442"
+  },
+  {
+    "item": {
+      "value": "Q1512428",
+      "label": "Council of the Republic of Belarus"
+    },
+    "countryLabel": "Belarus",
+    "position": "Q15623433"
+  },
+  {
+    "item": {
+      "value": "Q1517231",
+      "label": "Parliament of Singapore"
+    },
+    "countryLabel": "Singapore",
+    "position": "Q21294917"
+  },
+  {
+    "item": {
+      "value": "Q1501976",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Egypt",
+    "position": "Q21290857"
+  },
+  {
+    "item": {
+      "value": "Q1572773",
+      "label": "House of Representatives of Morocco"
+    },
+    "countryLabel": "Morocco",
+    "position": "Q21328583"
+  },
+  {
+    "item": {
+      "value": "Q1563075",
+      "label": "Senate of Saint Lucia"
+    },
+    "countryLabel": "Saint Lucia",
+    "position": "Q21295149"
+  },
+  {
+    "item": {
+      "value": "Q1518223",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Pakistan",
+    "position": "Q20760546"
+  },
+  {
+    "item": {
+      "value": "Q1568676",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Slovenia",
+    "position": "Q21296001"
+  },
+  {
+    "item": {
+      "value": "Q1571756",
+      "label": "Chamber of Representatives of Colombia"
+    },
+    "countryLabel": "Colombia",
+    "position": "Q18960607"
+  },
+  {
+    "item": {
+      "value": "Q1631396",
+      "label": "National Assembly of Zimbabwe"
+    },
+    "countryLabel": "Zimbabwe",
+    "position": "Q21296472"
+  },
+  {
+    "item": {
+      "value": "Q1634099",
+      "label": "National Assembly of Cameroon"
+    },
+    "countryLabel": "Cameroon",
+    "position": "Q21295975"
+  },
+  {
+    "item": {
+      "value": "Q1701225",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Kenya",
+    "position": "Q17510786"
+  },
+  {
+    "item": {
+      "value": "Q1760847",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Suriname",
+    "position": "Q17268790"
+  },
+  {
+    "item": {
+      "value": "Q1649622",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Belarus",
+    "position": "Q14335901"
+  },
+  {
+    "item": {
+      "value": "Q1574334",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Democratic Republic of the Congo",
+    "position": "Q21295979"
+  },
+  {
+    "item": {
+      "value": "Q1969569",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Sudan",
+    "position": "Q21328630"
+  },
+  {
+    "item": {
+      "value": "Q1969272",
+      "label": "National Council of Namibia"
+    },
+    "countryLabel": "Namibia",
+    "position": "Q21328627"
+  },
+  {
+    "item": {
+      "value": "Q1784088",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Zambia",
+    "position": "Q18607856"
+  },
+  {
+    "item": {
+      "value": "Q1969545",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Gabon",
+    "position": "Q19798976"
+  },
+  {
+    "item": {
+      "value": "Q1834804",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Brazil",
+    "position": "Q20058725"
+  },
+  {
+    "item": {
+      "value": "Q1968103",
+      "label": "National Legislative Assembly"
+    },
+    "countryLabel": "South Sudan",
+    "position": "Q21328629"
+  },
+  {
+    "item": {
+      "value": "Q1769673",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Namibia",
+    "position": "Q21295994"
+  },
+  {
+    "item": {
+      "value": "Q2108181",
+      "label": "House of the People"
+    },
+    "countryLabel": "Afghanistan",
+    "position": "Q19853383"
+  },
+  {
+    "item": {
+      "value": "Q1969587",
+      "label": "National Assembly"
+    },
+    "countryLabel": "Republic of the Congo",
+    "position": "Q21295980"
+  },
+  {
+    "item": {
+      "value": "Q2117607",
+      "label": "state council of Oman"
+    },
+    "countryLabel": "Oman",
+    "position": "Q21328599"
+  },
+  {
+    "item": {
+      "value": "Q2117711",
+      "label": "Senate of Uzbekistan"
+    },
+    "countryLabel": "Uzbekistan",
+    "position": "Q21295154"
+  },
+  {
+    "item": {
+      "value": "Q2118228",
+      "label": "House of Delegates of Palau"
+    },
+    "countryLabel": "Palau",
+    "position": "Q21328610"
+  },
+  {
+    "item": {
+      "value": "Q2117771",
+      "label": "Senate of Swaziland"
+    },
+    "countryLabel": "Eswatini",
+    "position": "Q21295151"
+  },
+  {
+    "item": {
+      "value": "Q2119413",
+      "label": "Federal Senate of Brazil"
+    },
+    "countryLabel": "Brazil",
+    "position": "Q18964326"
+  },
+  {
+    "item": {
+      "value": "Q2119267",
+      "label": "Senate of the Dominican Republic"
+    },
+    "countryLabel": "Dominican Republic",
+    "position": "Q21295132"
+  },
+  {
+    "item": {
+      "value": "Q2118303",
+      "label": "Argentine Senate"
+    },
+    "countryLabel": "Argentina",
+    "position": "Q18711738"
+  },
+  {
+    "item": {
+      "value": "Q2119404",
+      "label": "Senate of Paraguay"
+    },
+    "countryLabel": "Paraguay",
+    "position": "Q20058559"
+  },
+  {
+    "item": {
+      "value": "Q2119357",
+      "label": "House of Nationalities"
+    },
+    "countryLabel": "Myanmar",
+    "position": "Q21328612"
+  },
+  {
+    "item": {
+      "value": "Q2118693",
+      "label": "Regional Representative Council"
+    },
+    "countryLabel": "Indonesia",
+    "position": "Q21328635"
+  },
+  {
+    "item": {
+      "value": "Q2119458",
+      "label": "Senate of Chile"
+    },
+    "countryLabel": "Chile",
+    "position": "Q18882653"
+  },
+  {
+    "item": {
+      "value": "Q2119509",
+      "label": "Council of the Nation"
+    },
+    "countryLabel": "Algeria",
+    "position": "Q21290885"
+  },
+  {
+    "item": {
+      "value": "Q2119518",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Chile",
+    "position": "Q18067639"
+  },
+  {
+    "item": {
+      "value": "Q2119484",
+      "label": "National Council of Provinces"
+    },
+    "countryLabel": "South Africa",
+    "position": "Q20079916"
+  },
+  {
+    "item": {
+      "value": "Q2145199",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Trinidad and Tobago",
+    "position": "Q18719159"
+  },
+  {
+    "item": {
+      "value": "Q2398781",
+      "label": "Senate of Colombia"
+    },
+    "countryLabel": "Colombia",
+    "position": "Q19254253"
+  },
+  {
+    "item": {
+      "value": "Q2579023",
+      "label": "National Assembly of Bhutan"
+    },
+    "countryLabel": "Bhutan",
+    "position": "Q21295972"
+  },
+  {
+    "item": {
+      "value": "Q2571392",
+      "label": "Senate of Pakistan"
+    },
+    "countryLabel": "Pakistan",
+    "position": "Q3297966"
+  },
+  {
+    "item": {
+      "value": "Q2571392",
+      "label": "Senate of Pakistan"
+    },
+    "countryLabel": "Pakistan",
+    "position": "Q20081441"
+  },
+  {
+    "item": {
+      "value": "Q2668484",
+      "label": "National Council of Bhutan"
+    },
+    "countryLabel": "Bhutan",
+    "position": "Q21328625"
+  },
+  {
+    "item": {
+      "value": "Q2718547",
+      "label": "House of Peoples of Bosnia and Herzegovina"
+    },
+    "countryLabel": "Bosnia and Herzegovina",
+    "position": "Q21328613"
+  },
+  {
+    "item": {
+      "value": "Q2670027",
+      "label": "People's Representative Council"
+    },
+    "countryLabel": "Indonesia",
+    "position": "Q21328632"
+  },
+  {
+    "item": {
+      "value": "Q2509723",
+      "label": "Sami Parliament of Sweden"
+    },
+    "countryLabel": "Sweden",
+    "position": "Q96440210"
+  },
+  {
+    "item": {
+      "value": "Q2718576",
+      "label": "House of Councillors of Morocco"
+    },
+    "countryLabel": "Morocco",
+    "position": "Q21328580"
+  },
+  {
+    "item": {
+      "value": "Q2993867",
+      "label": "Council of States"
+    },
+    "countryLabel": "Sudan",
+    "position": "Q21328588"
+  },
+  {
+    "item": {
+      "value": "Q3014316",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "Mexico",
+    "position": "Q18534310"
+  },
+  {
+    "item": {
+      "value": "Q2948139",
+      "label": "House of Assembly"
+    },
+    "countryLabel": "The Bahamas",
+    "position": "Q17601986"
+  },
+  {
+    "item": {
+      "value": "Q2948392",
+      "label": "Senate of Bolivia"
+    },
+    "countryLabel": "Bolivia",
+    "position": "Q20081427"
+  },
+  {
+    "item": {
+      "value": "Q2993611",
+      "label": "Senate of Nigeria"
+    },
+    "countryLabel": "Nigeria",
+    "position": "Q19822359"
+  },
+  {
+    "item": {
+      "value": "Q3510833",
+      "label": "Senate of the Bahamas"
+    },
+    "countryLabel": "The Bahamas",
+    "position": "Q20725063"
+  },
+  {
+    "item": {
+      "value": "Q3055339",
+      "label": "Senate of Cambodia"
+    },
+    "countryLabel": "Cambodia",
+    "position": "Q21295127"
+  },
+  {
+    "item": {
+      "value": "Q3510838",
+      "label": "Senate"
+    },
+    "countryLabel": "Burundi",
+    "position": "Q21295125"
+  },
+  {
+    "item": {
+      "value": "Q3510836",
+      "label": "Senate of Cameroon"
+    },
+    "countryLabel": "Cameroon",
+    "position": "Q21295128"
+  },
+  {
+    "item": {
+      "value": "Q3379823",
+      "label": "House of Representatives"
+    },
+    "countryLabel": "Myanmar",
+    "position": "Q21290856"
+  },
+  {
+    "item": {
+      "value": "Q3510840",
+      "label": "Senate"
+    },
+    "countryLabel": "Republic of the Congo",
+    "position": "Q21295131"
+  },
+  {
+    "item": {
+      "value": "Q3510846",
+      "label": "Senate"
+    },
+    "countryLabel": "Gabon",
+    "position": "Q21295135"
+  },
+  {
+    "item": {
+      "value": "Q3510853",
+      "label": "Senate"
+    },
+    "countryLabel": "Madagascar",
+    "position": "Q21295145"
+  },
+  {
+    "item": {
+      "value": "Q3510854",
+      "label": "Senate of Jordan"
+    },
+    "countryLabel": "Jordan",
+    "position": "Q20081407"
+  },
+  {
+    "item": {
+      "value": "Q3510869",
+      "label": "Senate of Trinidad and Tobago"
+    },
+    "countryLabel": "Trinidad and Tobago",
+    "position": "Q19319420"
+  },
+  {
+    "item": {
+      "value": "Q3510849",
+      "label": "Senate of Haiti"
+    },
+    "countryLabel": "Haiti",
+    "position": "Q21295138"
+  },
+  {
+    "item": {
+      "value": "Q3510861",
+      "label": "Senate"
+    },
+    "countryLabel": "Rwanda",
+    "position": "Q21295148"
+  },
+  {
+    "item": {
+      "value": "Q4118178",
+      "label": "Council of Representatives"
+    },
+    "countryLabel": "Bahrain",
+    "position": "Q21328582"
+  },
+  {
+    "item": {
+      "value": "Q6518225",
+      "label": "Legislative Chamber of Uzbekistan"
+    },
+    "countryLabel": "Uzbekistan",
+    "position": "Q21328622"
+  },
+  {
+    "item": {
+      "value": "Q5914707",
+      "label": "House of Assembly of Eswatini"
+    },
+    "countryLabel": "Eswatini",
+    "position": "Q21296436"
+  },
+  {
+    "item": {
+      "value": "Q9390763",
+      "label": "Assembly of Representatives"
+    },
+    "countryLabel": "Tajikistan",
+    "position": "Q21328584"
+  },
+  {
+    "item": {
+      "value": "Q3510889",
+      "label": "Senate"
+    },
+    "countryLabel": "Democratic Republic of the Congo",
+    "position": "Q21295130"
+  },
+  {
+    "item": {
+      "value": "Q14759322",
+      "label": "Senate of Equatorial Guinea"
+    },
+    "countryLabel": "Equatorial Guinea",
+    "position": "Q21295134"
+  },
+  {
+    "item": {
+      "value": "Q6978858",
+      "label": "Senate"
+    },
+    "countryLabel": "Kenya",
+    "position": "Q18555726"
+  },
+  {
+    "item": {
+      "value": "Q20081431",
+      "label": "Chamber of Deputies of Bolivia"
+    },
+    "countryLabel": "Bolivia",
+    "position": "Q20081432"
+  },
+  {
+    "item": {
+      "value": "Q27881014",
+      "label": "Senate"
+    },
+    "countryLabel": "Côte d'Ivoire",
+    "position": "Q37786445"
+  },
+  {
+    "item": {
+      "value": "Q25683566",
+      "label": "Upper House of Somalia"
+    },
+    "countryLabel": "Somalia",
+    "position": "Q21328640"
+  },
+  {
+    "item": {
+      "value": "Q20080342",
+      "label": "House of Representatives of Jamaica"
+    },
+    "countryLabel": "Jamaica",
+    "position": "Q21290859"
+  },
+  {
+    "item": {
+      "value": "Q21078126",
+      "label": "House of the People"
+    },
+    "countryLabel": "Somalia",
+    "position": "Q21328615"
+  },
+  {
+    "item": {
+      "value": "Q19921131",
+      "label": "National Assembly of Tajikistan"
+    },
+    "countryLabel": "Tajikistan",
+    "position": "Q21296003"
+  },
+  {
+    "item": {
+      "value": "Q27897650",
+      "label": "Senate of Jamaica"
+    },
+    "countryLabel": "Jamaica",
+    "position": "Q21295140"
+  },
+  {
+    "item": {
+      "value": "Q19211",
+      "label": "National People's Congress of the People's Republic of China"
+    },
+    "countryLabel": "People's Republic of China",
+    "position": "Q10891456"
+  },
+  {
+    "item": {
+      "value": "Q63342292",
+      "label": "Chamber of Senators"
+    },
+    "countryLabel": "El Salvador",
+    "position": "Q63342322"
+  },
+  {
+    "item": {
+      "value": "Q63342284",
+      "label": "Chamber of Deputies"
+    },
+    "countryLabel": "El Salvador",
+    "position": "Q63342335"
   }
 ]

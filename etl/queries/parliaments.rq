@@ -1,17 +1,29 @@
-SELECT DISTINCT ?item ?itemLabel ?countryLabel ?seats ?startDate ?position WHERE {
+# SELECT DISTINCT ?item ?itemLabel ?countryLabel ?seats ?startDate ?position WHERE {
+#   ?item wdt:P31/wdt:P279* wd:Q10553309 ;
+#         wdt:P1001 ?country ;
+#         p:P1342 ?seatsStatement .
+  
+#   ?country wdt:P31 wd:Q3624078 .
+  
+#   ?seatsStatement ps:P1342 ?seats ;
+#                   pq:P580 ?startDate .
+  
+#   ?item wdt:P527 ?position .
+#   ?position wdt:P279* wd:Q486839 .
+  
+#   MINUS { ?item wdt:P576 [] }
+#   MINUS { ?seatsStatement pq:P582 [] }
+#   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+# }
+SELECT DISTINCT ?item ?itemLabel ?countryLabel ?position WHERE {
   ?item wdt:P31/wdt:P279* wd:Q10553309 ;
-        wdt:P1001 ?country ;
-        p:P1342 ?seatsStatement .
+        wdt:P1001 ?country .
   
   ?country wdt:P31 wd:Q3624078 .
-  
-  ?seatsStatement ps:P1342 ?seats ;
-                  pq:P580 ?startDate .
   
   ?item wdt:P527 ?position .
   ?position wdt:P279* wd:Q486839 .
   
   MINUS { ?item wdt:P576 [] }
-  MINUS { ?seatsStatement pq:P582 [] }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }

@@ -15,7 +15,7 @@ async function processData() {
         loop = new Date(newDate);
     }
 
-    const rl = readline.createInterface(process.stdin, process.stdout);
+    const rl = readline.createInterface(input = process.stdin, output = process.stdout);
 
     for await (const line of rl) {
         let data = JSON.parse(line);
@@ -29,6 +29,7 @@ async function processData() {
         }
     }
     process.stdout.write(JSON.stringify(counts))
+    process.exit()
 }
 
 processData()

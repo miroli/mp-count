@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATA_FOLDER=$(dirname $(dirname $0))/data
+DATA_FOLDER=$(dirname $(dirname $0))/website/data
 CONFIG_FILE=$(dirname $0)/config.json
 QUERY_FILE=`dirname $0`/queries/mps.js
 COUNT_FILE=`dirname $0`/countMps.js

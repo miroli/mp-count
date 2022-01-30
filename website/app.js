@@ -40,17 +40,13 @@ surface.append("g")
     .attr("class", "brush")
     .call(brush);
 
-// A function that set idleTimeOut to null
 var idleTimeout
 function idled() { idleTimeout = null; }
 
 let data = []
 
 function update(inc) {
-    console.log('Updating')
-
     if (d3.event) {
-        console.log('Discovered event')
         extent = d3.event.selection
         console.log(extent)
 

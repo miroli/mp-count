@@ -8,7 +8,7 @@
   "dependencies": {},
   "scripts": {
     "update-all-chambers": "./etl/get_mp_data.sh",
-    "update-single-chamber": "wd sparql ./etl/queries/mps.js $npm_config_qid | jq -c '.[]' | node ./etl/countMps.js > ./data/$npm_config_qid.json",
+    "update-single-chamber": "wd sparql ./etl/queries/mps.js $npm_config_qid | jq -c '.[]' | node ./etl/countMps.js > ./website/data/$npm_config_qid.json",
     "update-config": "./etl/get_parliament_data.sh",
     "generate-select": "cat etl/config.json | jq -r 'sort_by(.countryLabel) | .[] | \"<option value=\" + .position.value + \">\" + .countryLabel + \" (\" + .position.label + \")</option>\"'",
     "server": "python -m http.server"

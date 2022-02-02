@@ -5,13 +5,15 @@
   "author": "Robin Linderborg",
   "license": "CC0",
   "private": false,
-  "dependencies": {},
-  "scripts": {
-    "update-all-chambers": "./etl/get_mp_data.sh",
-    "update-single-chamber": "wd sparql ./etl/queries/mps.js $npm_config_qid | jq -c '.[]' | node ./etl/countMps.js > ./website/data/$npm_config_qid.json",
-    "update-config": "./etl/get_parliament_data.sh",
-    "generate-select": "cat etl/config.json | jq -r 'sort_by(.countryLabel) | .[] | \"<option value=\" + .position.value + \">\" + .countryLabel + \" (\" + .position.label + \")</option>\"'",
-    "server": "cd website && python -m http.server"
+  "dependencies": {
+    "wikibase-cli": "^15.16.4"
   },
-  "devDependencies": {}
+  "scripts": {
+    "wd": "./node_modules/wikibase-cli/bin/wd",
+    "update-all-chambers": "./etl/get_mp_data.sh",
+    "update-single-chamber": "npm run wd –– sparql ./etl/queries/mps.js $npm_config_qid | jq -c '.[]' | node ./etl/countMps.js > ./website/data/$npm_config_qid.json",
+    "update-config": "npm run wd –– sparql ./etl/queries/parliaments.rq > ./etl/config.json",
+    "update": "npm run update-config && cp ./etl/config.json website/data/ && npm run update-all-chambers",
+    "server": "cd website && python -m http.server"
+  }
 }

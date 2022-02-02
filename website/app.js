@@ -118,11 +118,32 @@ router.on('/', ({ data, params }) => {
     }
 });
 
-d3.select("#dropdown")
-    .on("change", function () {
-        console.log('changed')
-        const position = d3.select(this).property("value");
-        router.navigate(`/?position=${position}`);
-    })
+const dropdown = d3.select("#dropdown");
+
+d3.json("data/config.json").then(function (chambers) {
+    chambers = chambers.sort(function (a, b) {
+        if (a.countryLabel > b.countryLabel) {
+            return 1;
+        }
+        if (b.countryLabel > a.countryLabel) {
+            return -1;
+        }
+        return 0;
+    });
+
+    dropdown
+        .selectAll('option')
+        .data(chambers)
+        .enter()
+        .append('option')
+        .attr("value", d => d.position.value)
+        .text(d => `${d.countryLabel} (${d.position.label})`);
+});
+
+dropdown.on("change", function () {
+    console.log('changed');
+    const position = d3.select(this).property("value");
+    router.navigate(`/?position=${position}`);
+});
 
 router.resolve();

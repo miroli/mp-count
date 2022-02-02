@@ -1,6 +1,12 @@
+const router = new Navigo('/');
+
 var margin = { top: 10, right: 30, bottom: 30, left: 40 },
     width = 900 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
+
+let meta;
+
+// d3.json("meta.json").then(function (d) { meta = d });
 
 var svg = d3.select("#vis")
     .append("svg")
@@ -75,6 +81,7 @@ function update(inc) {
         for (const key in inc) {
             data.push({ date: d3.timeParse("%Y-%m-%d")(key), count: inc[key] })
         }
+        data = data.sort((a, b) => a.date - b.date)
 
         x.domain([d3.min(data, d => d.date), d3.max(data, d => d.date)]);
         svg.selectAll(".myXaxis")
@@ -104,10 +111,18 @@ function update(inc) {
     }
 }
 
+router.on('/', ({ data, params }) => {
+    if (params) {
+        d3.json(`data/${params.position}.json`).then(update)
+        document.getElementById('dropdown').value = params.position;
+    }
+});
+
 d3.select("#dropdown")
     .on("change", function () {
-        const country = d3.select(this).property("value");
-        d3.json(`data/${country}.json`).then(update)
+        console.log('changed')
+        const position = d3.select(this).property("value");
+        router.navigate(`/?position=${position}`);
     })
 
-d3.json("data/Q19269361.json").then(update)
+router.resolve();

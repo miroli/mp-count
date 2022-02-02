@@ -1,9 +1,9 @@
 #!/bin/bash
 
-DATA_FOLDER=$(dirname $(dirname $0))/website/data
-CONFIG_FILE=$(dirname $0)/config.json
-QUERY_FILE=`dirname $0`/queries/mps.js
-COUNT_FILE=`dirname $0`/countMps.js
+DATA_FOLDER=./website/data
+CONFIG_FILE=./website/data/config.json
+QUERY_FILE=./queries/mps.js
+COUNT_FILE=./count_mps.js
 
 for row in $(cat $CONFIG_FILE | jq -c -r '.[] | .position.value'); do
     echo $row

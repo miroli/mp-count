@@ -10,10 +10,10 @@
   },
   "scripts": {
     "wd": "./node_modules/wikibase-cli/bin/wd",
-    "update-all-chambers": "./etl/get_mp_data.sh",
-    "update-single-chamber": "npm run wd –– sparql ./etl/queries/mps.js $npm_config_qid | jq -c '.[]' | node ./etl/countMps.js > ./website/data/$npm_config_qid.json",
-    "update-config": "npm run wd –– sparql ./etl/queries/parliaments.rq > ./etl/config.json",
-    "update": "npm run update-config && cp ./etl/config.json website/data/ && npm run update-all-chambers",
+    "update-all-chambers": "./get_mp_data.sh",
+    "update-single-chamber": "npm run wd –– sparql ./queries/mps.js $npm_config_qid | jq -c '.[]' | node ./count_mps.js > ./website/data/$npm_config_qid.json",
+    "update-config": "npm run wd –– sparql ./etl/queries/parliaments.rq > ./website/data/config.json",
+    "update": "npm run update-config && npm run update-all-chambers",
     "server": "cd website && python -m http.server"
   }
 }

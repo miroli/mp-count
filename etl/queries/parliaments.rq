@@ -15,15 +15,26 @@
 #   MINUS { ?seatsStatement pq:P582 [] }
 #   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 # }
-SELECT DISTINCT ?item ?itemLabel ?countryLabel ?position ?positionLabel WHERE {
+SELECT DISTINCT ?item ?itemLabel ?countryLabel ?position ?positionLabel WITH {
+  SELECT ?country WHERE {
+    { ?country wdt:P31 wd:Q3624078 . }
+    UNION
+    { VALUES ?country { wd:Q55 } }
+    }
+} AS %countries
+WHERE {
+  INCLUDE %countries
   ?item wdt:P31/wdt:P279* wd:Q10553309 ;
         wdt:P1001 ?country .
   
-  ?country wdt:P31 wd:Q3624078 .
+  ?item wdt:P527|wdt:P2670 ?position .
   
-  ?item wdt:P527 ?position .
-  ?position wdt:P279* wd:Q486839 .
+  VALUES ?positions { wd:Q486839 wd:Q4175034 }
+  
+  ?position wdt:P279* ?positions .
   
   MINUS { ?item wdt:P576 [] }
+  FILTER ( ?position != wd:Q5253588 )
+  FILTER ( ?position != wd:Q1140848 )
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }

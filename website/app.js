@@ -115,6 +115,9 @@ router.on('/', ({ data, params }) => {
     if (params) {
         d3.json(`data/${params.position}.json`).then(update)
         document.getElementById('dropdown').value = params.position;
+        d3.select('#position-qid')
+            .text(params.position)
+            .attr('href', `https://www.wikidata.org/wiki/${params.position}`);
     }
 });
 
